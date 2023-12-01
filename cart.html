@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Testo pizza</title>
+  <!-- Bootstrap 5.3-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome 6.4 -->
+  <link href="assets/css/all.min.css" rel="stylesheet" />
+  <!-- Custom css-->
+  <link href="assets/css/style.min.css" rel="stylesheet" />
+  <link href="assets/css/cart.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+  <!-- loading page start -->
+  <div class="load position-fixed vh-100 w-100 d-flex justify-content-center align-items-center z-3 bg-white">
+    <div class="load-item">
+      <span class="loader "></span>
+      <span class="loader "></span>
+    </div>
+  </div>
+
+  <!-- loading page end  -->
+  <!-- navbar start -->
+
+      <nav class="navbar border-0 navbar-expand-lg bg-body-tertiary fixed-top z-2 bg-nav" >
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo-01.png" class="" alt="logo" />
+              </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center pt-3 ms-7" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 justify-content-center align-items-center>
+              <li class=" nav-item">
+              <a class="nav-link text-nav active" aria-current="page" href="#"></a>
+              </li>
+
+              <li class="nav-item dropdown me-2">
+                <a class="nav-link d1 dropdown-toggle text-uppercase text-nav f-18" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  about
+                </a>
+                <ul class="dropdown-menu text-capitalize border-0">
+                  <li><a class="dropdown-item" href="#">about Testo</a></li>
+                  <li><a class="dropdown-item" href="#">Meet The Team</a></li>
+                  <li><a class="dropdown-item" href="#">image gallary</a></li>
+                  <li><a class="dropdown-item" href="#">gift card</a></li>
+                  <li><a class="dropdown-item" href="#">F.A.Q.s</a></li>
+                  <li><a class="dropdown-item" href="#">Terms & Privacy</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-2">
+                <a class="nav-link d2 dropdown-toggle text-uppercase text-nav  f-18" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Our Menu
+                </a>
+                <ul class="dropdown-menu text-capitalize border-0 ">
+                  <li><a class="dropdown-item" href="#">Menu v.1 - Tabs Cards</a></li>
+                  <li><a class="dropdown-item" href="#">Menu v.2 - Cards</a></li>
+                  <li><a class="dropdown-item" href="#">Menu v.3 - Sections</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item dropdown me-2">
+                <a class="nav-link d3 dropdown-toggle text-uppercase text-nav  f-18" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  shop
+                </a>
+                <ul class="dropdown-menu text-capitalize border-0 ">
+                  <li><a class="dropdown-item" href="#">Single Product</a></li>
+                  <li><a class="dropdown-item" href="#">Shopping Cart</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-2">
+                <a class="nav-link d4 dropdown-toggle text-uppercase text-nav  f-18" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  blog
+                </a>
+                <ul class="dropdown-menu text-capitalize border-0">
+                  <li><a class="dropdown-item" href="#">Blog Listing</a></li>
+                  <li><a class="dropdown-item" href="#">Single Post</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown me-2">
+                <a class="nav-link d5 dropdown-toggle text-uppercase text-nav  f-18" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Hours & Locations
+                </a>
+                <ul class="dropdown-menu text-capitalize border-0 ">
+                  <li><a class="dropdown-item" href="#">Book A Table</a></li>
+                  <li><a class="dropdown-item" href="#">Our Locations</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                </ul>
+              </li>
+              <li class="nav-item align-items-center">
+                <a href="tel:123456789" class="text-decoration-none align-items-center tel">789-654-3210</a>
+
+              </li>
+              <li class="nav-item align-items-center me-2 ">
+
+                <div class="shop d6 position-relative py-2 text-nav ">
+                  <div class="rounded-num position-absolute ">2</div>
+                  <div class="icon-shop">
+                    <i class="fa-solid fa-bag-shopping  "></i>
+                  </div>
+
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+
+  <!-- navbar end -->
+
+
+  <!-- header start -->
+<header class="header-cart">
+    <div class="container">
+        <div class="header-top text-center ">
+
+                    <a href="index.html" class="text-uppercase"> home</a>
+                    <span class="dash"></span>
+                    <p class="d-inline-block text-uppercase">Shopping Cart</p>
+        </div>
+        <div class="header-title">  
+            <h1 class="text-center text-uppercase">
+                Shopping Cart
+            </h1>
+        </div>
+    
+    </div>
+
+</header>
+   <!-- header end -->
+
+  <!-- cart start -->
+
+  <Section class="cart py-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="table1">
+            <table>
+              <thead>
+                <tr class="thead-table text-inherit border-bottom " >
+                  <td >Product</td>
+                  <td >Price</td>
+                  <td >Quantity</td>
+                  <td >Total</td>
+                  <td >Delete</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="body-table border-bottom ">
+                  <td lable-tag="Product" class="d-flex">
+                    <div class="cart-img ">
+                      <img src="assets/img/burger-07.png" alt=" Smokey-House-Burger">
+                    </div>
+                    <div class="cart-desc ps-3">
+                      <h4>Smokey House Burger</h4>
+                      <p>Magna donec and ipsum gravida</p>
+                    </div>
+                  </td>
+                  <td lable-tag="Price">
+                    <h4>$8.95</h4>
+                  </td>
+                  <td lable-tag="Quantity">
+                    <input class="Quantity ms-2 px-2" type="number" min="1" max="20" value="1">
+                  </td>
+                  <td lable-tag="Total">
+                    <h4>$8.95</h4>
+                  </td>
+                  <td lable-tag="Delete">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </td>
+                </tr>
+                <tr class="body-table ">
+                  <td class="d-flex" lable-tag="Product">
+                    <div class="cart-img ">
+                      <img src="assets/img/pizza-04.png" alt="BBQ-CHICKEN-PIZZA">
+                    </div>
+                    <div class="cart-desc ps-3">
+                      <h4>BBQ CHICKEN PIZZA</h4>
+                      <p>Magna donec and ipsum gravida</p>
+                    </div>
+                  </td>
+                  <td lable-tag="Price">
+                    <h4>$27.00</h4>
+                  </td>
+                  <td lable-tag="Quantity">
+                    <input class="Quantity ms-2 px-2" type="number" min="1" max="20" value="1">
+                  </td>
+                  <td lable-tag="Total">
+                    <h4>$27.00</h4>
+                  </td>
+                  <td lable-tag="Delete">
+                    <i class="fa-regular fa-trash-can"></i>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+          
+        </div>
+      </div>
+
+
+      <div class="row r2 row-gap-5 pt-5">
+        <div class="col-lg-8 inli ">
+          <div class="row row-gap-5">
+            <div class="col-md-8 apply-coupon d-inline ">
+              <input type="text" placeholder="Coupon Code" class="coupon">
+              <button type="submit" class="cart-but text-center ms-1 text-uppercase">Apply Coupon</button>
+            </div>
+            <div class=" col-md-4 update text-end">
+              <button type="submit" class="cart-but text-center text-uppercase position-end">Update Cart</button>
+            </div>
+          </div>
+          
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-0 px-4 py-4 " style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title mb-4 text-uppercase ">CART TOTAL</h5>
+              <div class="card-table pb-4">
+                <table >
+                  <tbody>
+                    <tr class="border-bottom">
+                      <td>Subtotal</td>
+                      <td class="text-end">$35.95</td>
+                    </tr>
+                    <tr class="">
+                      <td>Total</td>
+                      <td class="text-end">$35.95</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <a href="#" class="cart-but w-100 text-decoration-none d-block text-center text-uppercase card-button ">Proceed To Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      </Section>
+      <!-- cart end -->
+
+
+  <!-- app-download start -->
+  <Section class="app-download  ">
+    <div class="bg-app-download  ">
+      <div class="container">
+
+        <div class="row align-items-center d-flex row-gap-5">
+          <div class="col-md-7 col-lg-6 px-3 pt-4 justify-content-center">
+            <h5>DOWNLOAD MOBILE APP AND</h5>
+            <h2>SAVE UP TO 20%</h2>
+            <p class="pe-5 pt-2">Aliquam a augue suscipit, luctus neque purus ipsum and neque dolor primis libero
+              tempus, blandit varius</p>
+
+            <div class="apps d-inline-block pt-2">
+              <a href="#" class="me-2"> <img src="assets/img/appstore.png" alt="appstore" class="img-app"></a>
+              <a href="#"> <img src="assets/img/googleplay.png" alt="googleplay" class="img-app">
+              </a>
+
+            </div>
+
+          </div>
+          <div class="col-md-5 col-lg-6 promo  ">
+            <img src="assets/img/e-shop.png" alt="promo" class="img-fluid">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </Section>
+  <!-- app-download end -->
+
+
+<!-- footer start -->
+<footer class="footer py-5">
+  <div class="container">
+    <div class="row pb-5 row-gap-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="img-logo">
+          <img src="assets/img/logo-01.png" alt="logo">
+        </div>
+        <div class="text-p py-3">
+          <p>An orci nullam tempor a sapien eget gravida and integer donec ipsum porta justo integer</p>
+        </div>
+  
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="content px-4">
+          <h4 class="mb-3">ORDER NOW</h4>
+          <p class="text-p ">8721 M Central Avenue,</p>
+          <p class="text-p mb-3 ">Los Angeles, CA 90036</p>
+            <a href="mailto:yourdomain@mail.com" class="text-p text-decoration-none mails d-block">hello@yourdomain.com</a>
+            <a href="tel:123456789" class="text-decoration-none align-items-center tel">789-654-3210</a>
+
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="content px-3">
+          <h4 class="mb-3">Working Hours</h4>
+          <p class="text-p mb-3">Quaerat neque purus ipsum at neque dolor primis tempus</p>
+          <p class="text-p ">Mon-Fri: <span class="ms-2">9:00AM - 10:00PM</span></p>
+          <p class="text-p ">Saturday: <span class="ms-2">10:00AM - 8:30PM</span></p>
+          <p class="text-p ">Sunday: <span class="ms-2">12:00PM - 5:00PM</span></p>
+        </div>
+        
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="content ">
+          <h4 class="mb-3">INSTAGRAM FEED</h4>
+       
+              <img src="assets/img/instagram/img-01.jpg" alt="insta-feed1">
+              <img src="assets/img/instagram/img-02.jpg" alt="insta-feed2">
+              <img src="assets/img/instagram/img-03.jpg" alt="insta-feed3">
+              <img src="assets/img/instagram/img-04.jpg" alt="insta-feed4">
+              <img src="assets/img/instagram/img-05.jpg" alt="insta-feed5">
+              <img src="assets/img/instagram/img-06.jpg" alt="insta-feed6">
+         
+
+          
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row  border-top  py-4">
+      <div class="col-md-6">
+        <div class="rights ">
+          <p class="mb-0 text-capitalize">&copy; 2020 Testo. All Rights Reserved</p>
+        </div>
+      </div>
+      <div class="col-md-6 social-footer text-end">
+        
+        <a href=""  class="text-decoration-none rights  "><i class="fa-brands fa-facebook-f"></i>  Facebook</a>
+        <a href=""  class="text-decoration-none rights "><i class="fa-brands fa-twitter"></i>  Twitter</a>
+        <a href=""  class="text-decoration-none rights "><i class="fa-brands fa-youtube"></i>  YouTube</a>
+        <a href=""  class="text-decoration-none rights "><i class="fa-brands fa-yelp"></i> Yelp</a>
+
+      </div>
+    </div>
+    
+  </div>
+
+</footer>
+<!-- footer end -->
+
+
+<!-- side list -->
+
+<div class="side-list displays ">
+  <a href="#" class="list-s"> <i class="fa-solid fa-layer-group"></i></a>
+  <div class="sideList-items text-center">
+    <div class="side-text pt-4 ">
+      <p class="text-capitalize text-white ">choose demo</p>
+    </div>
+    <div class="list-content">
+      <a href="">
+          <img src="assets/img/color-scheme/l-01.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-02.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-03.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-04.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-05.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-06.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-07.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-08.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-09.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-10.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-11.jpg" class="py-2" alt="">
+      </a>
+      <a href="">
+          <img src="assets/img/color-scheme/l-12.jpg" class="py-2" alt="">
+      </a>
+    </div>
+  </div>
+
+</div>
+  <!-- scroll-up arrow  -->
+  <div  class="scroll-up opacity-0 invisible"><i class="fa-solid fa-arrow-up"></i></div>
+
+  <!-- javascript bootstarp-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,342 @@
+
+/* 
+@media (max-width: 1200px) 
+{
+    .container 
+    {
+        max-width: 1140px;
+    }
+
+    
+    
+} */
+
+@media (max-width: 990px) 
+{
+
+
+    /* .navbar
+    {
+        border-top: none ;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled)
+    {
+        right: 0;
+        position: absolute;
+        bottom: 38px;
+    }
+    .header
+    {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .header-content
+    {
+        margin-top: 12px!important;
+        margin-bottom: 0px!important;
+    }
+    .navbar
+    {
+        text-align: center;
+    }
+    .navbar .nav-item .rounded-num
+    {
+        right: 297px;
+    } */
+
+    .navbar
+    {
+        border-top: none ;
+        text-align: center !important;
+
+
+    }
+    .header
+    {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+    .header-content img
+    {
+        /* margin-top: 12px!important;
+        margin-bottom: 0px!important; */
+        display: none;
+    }
+
+    .navbar img
+    {
+        width: auto;
+        max-width: inherit;
+        max-height: 70px;
+    
+    }   
+    .navbar-toggler
+    {
+        right: 0;
+        position: absolute;
+        top: 24px;
+    }
+
+
+    .navbar .nav-item .rounded-num
+    {
+        right: 297px;
+    } 
+
+
+    
+    
+}
+@media (max-width: 1200px) 
+{
+    .container 
+    {
+        max-width: 960px;
+    }  
+    h2
+    {
+   font-size: 53px;
+    }
+
+  
+
+}
+@media (max-width: 990px) 
+{
+    .container 
+    {
+        max-width: 720px;
+    }  
+    h2
+    {
+   font-size: 50px;
+    }
+.dots[percentage="26%"] 
+{
+    width: 41%;
+}
+.dots[percentage="28%"] 
+{
+    width: 43%;
+}
+.dots[percentage="32%"] 
+{
+    width: 47%;
+}
+.dots[percentage="33%"] 
+{
+    width: 47%;
+}
+.dots[percentage="35%"] 
+{
+    width: 49%;
+}
+.dots[percentage="38%"] 
+{
+    width: 50%;
+}
+.dots[percentage="42%"] 
+{
+    width: 54%;
+}
+.dots[percentage="44%"] 
+{
+    width: 56%;
+}
+.dots[percentage="45%"] 
+{
+    width: 56%;
+}
+
+.dots[percentage="48%"] 
+{
+    width: 59%;
+}
+.dots[percentage="50%"] 
+{
+    width: 60%;
+}
+.dots[percentage="52%"] 
+{
+    width: 62%;
+}
+.dots[percentage="53%"] 
+{
+    width: 63%;
+}
+.m-86
+{
+    margin-right: 86px;
+}
+.top-6
+{
+    top: -6px !important;
+}
+.best-offers .card
+{
+    display: block;
+}
+.best-offers .image-container
+{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.best-offers .body
+{
+    display: inline-block;
+    width: 50%;
+    padding-right: 1.0rem!important;
+    padding-left: 1.0rem!important;
+  
+}
+.but-best
+{
+    float: left;
+    padding-top: 15px;
+}
+.im1
+{
+    display: none;
+}
+    
+}
+@media (max-width: 768px) 
+{
+    .container 
+    {
+        max-width: 540px;
+    }  
+    h2
+    {
+   font-size: 48px;
+    }
+    .best-offers .card
+{
+    display: flex;
+}
+.best-offers .image-container
+{
+    display: block;
+    width: 100%;
+    float:none;
+}
+.best-offers .body
+{
+    display: block;
+    width: 100%;
+    padding-right: 0!important;
+    padding-left: 0!important;
+  
+}
+.but-best
+{
+    float: right;
+    padding-top: 15px;
+}
+.app-download .promo
+{
+    margin-top: -10px;
+ }
+
+ .offer h2
+ {
+    font-size: 3.75rem;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 53px;
+ }
+ .offer p
+ {
+    font-size: 2.15rem;
+    text-align: center;
+
+ }
+ .offer  span
+ {
+    font-size: 2.75rem;
+    text-align: center;
+
+
+ }
+ .offer .imag
+{
+    vertical-align: middle;
+    border-style: none;
+}
+.spacial
+{
+    display: flex;
+    flex-flow: column-reverse;
+}
+.navbar .nav-item .rounded-num
+{
+    right: 226px;
+}
+
+.im2
+{
+    display: none;
+}
+.im3
+{
+    display: none;
+}
+ 
+}
+@media (max-width: 576px) 
+{
+    .container 
+    {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }  
+    h2
+    {
+   font-size: 40px;
+    }
+    .menu-mega img
+    {
+        display: none;
+
+    }
+    .menu-mega 
+    {
+        text-align: center;
+        width: auto;
+
+    }
+    
+    .navbar .nav-item .rounded-num
+    {
+        right: 296px;
+    }
+    .im4
+{
+    display: none;
+}
+.im5
+{
+    display: none;
+}
+
+
+    
+}
+@media (max-width: 450px) 
+{
+
+    .navbar .nav-item .rounded-num
+    {
+        right: 113px;
+    }
+
+
+    
+}
+
+
